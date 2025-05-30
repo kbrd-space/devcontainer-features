@@ -1,0 +1,8 @@
+{
+    "zephyrproject": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "zmk": {}
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "ZMK",
+  "id": "zmk",
+  "version": "0.0.1",
+  "description": "ZMK Dev environment",
+  "options": {
+    "zephyr_git_org": {
+      "type": "string",
+      "proposals": [
+        "zephyrproject-rtos",
+        "zmkfirmware"
+      ],
+      "default": "zmkfirmware",
+      "description": "Select or enter a Zephyr git organization (e.g. 'zephyrproject-rtos')."
+    },
+    "zephyr_git_reponame": {
+      "type": "string",
+      "proposals": [
+        "zephyr"
+      ],
+      "default": "zephyr",
+      "description": "Select or enter a Zephyr git repository name (e.g. 'zephyr')."
+    },
+    "zephyr_git_revision": {
+      "type": "string",
+      "proposals": [
+        "main",
+        "zephyr-v3.5.0",
+        "zmk-v2.3.0-with-fixes"
+      ],
+      "default": "zmk-v2.3.0-with-fixes",
+      "description": "Select or enter a Zephyr git revision (e.g. 'main', 'zephyr-v3.5.0', or 'zmk-v2.3.0-with-fixes')."
+    },
+    "zephyr_sdk_version": {
+      "type": "string",
+      "proposals": [
+        "0.17.1"
+      ],
+      "default": "0.17.1",
+      "description": "Select or enter a Zephyr git revision (e.g. '0.17.1')."
+    },
+    "architecture": {
+      "type": "string",
+      "proposals": [
+        "arm"
+      ],
+      "default": "arm",
+      "description": "Select or enter an architecture (e.g. 'arm')."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
