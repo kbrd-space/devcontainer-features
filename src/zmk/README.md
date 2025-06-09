@@ -15,10 +15,10 @@ ZMK Dev environment
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| zephyr_git_org | Select or enter a Zephyr git organization (e.g. 'zephyrproject-rtos'). | string | zmkfirmware |
+| zephyr_git_org | Select or enter a Zephyr git organization (e.g. 'zephyrproject-rtos' or 'zmkfirmware'). | string | zmkfirmware |
 | zephyr_git_reponame | Select or enter a Zephyr git repository name (e.g. 'zephyr'). | string | zephyr |
 | zephyr_git_revision | Select or enter a Zephyr git revision (e.g. 'main', 'zephyr-v3.5.0', or 'zmk-v2.3.0-with-fixes'). | string | zmk-v2.3.0-with-fixes |
-| zephyr_sdk_version | Select or enter a Zephyr git revision (e.g. '0.17.1'). | string | 0.17.1 |
+| zephyr_sdk_version | Select or enter a Zephyr git revision (e.g. '0.16.9'). | string | 0.16.9 |
 | architecture | Select or enter an architecture (e.g. 'arm'). | string | arm |
 
 
