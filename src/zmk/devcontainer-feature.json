@@ -11,7 +11,7 @@
         "zmkfirmware"
       ],
       "default": "zmkfirmware",
-      "description": "Select or enter a Zephyr git organization (e.g. 'zephyrproject-rtos')."
+      "description": "Select or enter a Zephyr git organization (e.g. 'zephyrproject-rtos' or 'zmkfirmware')."
     },
     "zephyr_git_reponame": {
       "type": "string",
@@ -34,10 +34,10 @@
     "zephyr_sdk_version": {
       "type": "string",
       "proposals": [
-        "0.17.1"
+        "0.16.9"
       ],
-      "default": "0.17.1",
-      "description": "Select or enter a Zephyr git revision (e.g. '0.17.1')."
+      "default": "0.16.9",
+      "description": "Select or enter a Zephyr git revision (e.g. '0.16.9')."
     },
     "architecture": {
       "type": "string",
