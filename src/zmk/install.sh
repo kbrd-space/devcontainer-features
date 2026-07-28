@@ -59,6 +59,8 @@ check_packages \
     python3-wheel \
     ssh
 
+pip install --upgrade pip setuptools wheel
+
 # Install python-related dependencies for Zephyr
 PIP_BREAK_SYSTEM_PACKAGES=1 pip3 install \
   -r "https://raw.githubusercontent.com/${ZEPHYR_GIT_ORG}/${ZEPHYR_GIT_REPONAME}/refs/heads/${ZEPHYR_GIT_REVISION}/scripts/requirements-base.txt"
